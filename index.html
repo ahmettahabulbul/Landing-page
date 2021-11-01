@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmet Taha Bülbül</title>
+    <meta name="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Ahmet Taha Bülbül</h1>
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <img src="images/SAVE_20210226_011848.jpg" alt="Ahmet Taha Bülbül" />
+      <div class="name text-center">
+        <h2 class="heading-big">Ahmet Taha Bülbül</h2>
+        <p>Freelance Web Developer</p>
+      </div>
+      <a href="#courses">Kurslara Git</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+            mollitia.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Konferanslar</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+            mollitia.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Online İçerikler</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima,
+            mollitia.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium">Kurslar</h3>
+      <div class="container">
+        <div class="courses">
+          <div class="course">
+            <div class="course-image">
+              <img src="images/html.png" alt="Pyhton" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Html 5 Kursu</div>
+              <div class="description">Sıfırdan Html Öğrenin</div>
+              <div class="instructor">Ahmet Taha Bülbül</div>
+              <div class="rating">4.7 | (500 Oylama)</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-image">
+              <img src="images/photoshop.png" alt="Photoshop" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Photoshop Kursu</div>
+              <div class="description">
+                Başlangıç Düzeyinde Photoshop Öğrenin
+              </div>
+              <div class="instructor">Ahmet Taha Bülbül</div>
+              <div class="rating">4.5 | (500 Oylama)</div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-image">
+              <img src="images/illustrator.png" alt="Illustrator" />
+              <span>%90 İndirim</span>
+            </div>
+            <div class="course-info">
+              <div class="title">Illustrator Kursu</div>
+              <div class="description">
+                Başlangıç Düzeyinde Illustrator Öğrenin
+              </div>
+              <div class="instructor">Ahmet Taha Bülbül</div>
+              <div class="rating">4.6 | (500 Oylama)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form action="">
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E_mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Mesajınız"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Gönder</button>
+        </form>
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
